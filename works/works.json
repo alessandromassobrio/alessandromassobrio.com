@@ -1,0 +1,118 @@
+[
+  {
+    "id": "opera-1",
+    "slug": "il-primo-sguardo",
+    "title": "Il primo sguardo",
+    "year": 2024
+  },
+  {
+    "id": "opera-2",
+    "slug": "calanchi",
+    "title": "Calanchi",
+    "year": 2023
+  },
+  {
+    "id": "opera-3",
+    "slug": "lichtbrechungen",
+    "title": "Lichtbrechungen",
+    "year": 2021
+  },
+  {
+    "id": "opera-4",
+    "slug": "senza",
+    "title": "Senza",
+    "year": 2020,
+    "category": "Solo"
+  },
+   {
+    "id": "opera-5",
+    "slug": "linee-radiali",
+    "title": "Linee radiali",
+    "year": 2018,
+    "category": "Solo"
+  },
+  {
+    "id": "opera-6",
+    "slug": "a-lungo",
+    "title": "...a lungo",
+    "year": 2014,
+    "category": "Solo"
+  },
+  {
+    "id": "opera-7",
+    "slug": "studi-fenomenologici-legno",
+    "title": "Studi fenomenologici:legno",
+    "year": 2014,
+    "category": "Solo"
+  },
+  {
+    "id": "opera-8",
+    "slug": "villa-deati",
+    "title": "Villa Deati",
+    "year": 2013,
+    "category": "Chamber"
+  },
+  {
+    "id": "opera-9",
+    "slug": "non-ve-cosa",
+    "title": "Non v'è cosa",
+    "year": 2012,
+    "category": "Chamber"
+  },
+  {
+    "id": "opera-10",
+    "slug": "emergences",
+    "title": "Emergences",
+    "year": 2011,
+    "category": "Chamber"
+  },
+  {
+    "id": "opera-11",
+    "slug": "debole-forza",
+    "title": "debole forza",
+    "year": 2010,
+    "category": "Solo"
+  },
+  {
+    "id": "opera-12",
+    "slug": "guitar-studies-iv-black-light",
+    "title": "Guitar studies iv - Black light",
+    "year": 2010,
+    "category": "Solo"
+  },
+  {
+    "id": "opera-13",
+    "slug": "guitar-studies-iii-emergences-pressione-e-scordatura",
+    "title": "Guitar studies iii - Emergences, percussione e scordatura",
+    "year": 2009,
+    "category": "Solo"
+  },
+  {
+    "id": "opera-14",
+    "slug": "pale-blue-meadows",
+    "title": "Pale Blue Meadows",
+    "year": 2008,
+    "category": "Solo"
+  },
+  {
+    "id": "opera-15",
+    "slug": "jenner",
+    "title": "Jenner",
+    "year": 2007,
+    "category": "Live cinema"
+  },
+  {
+    "id": "opera-16",
+    "slug": "guitar-studies-ii-submerged-choirs",
+    "title": "Guitar studies ii - Submerged Choirs",
+    "year": 2007,
+    "category": "Solo"
+  },
+  {
+    "id": "opera-17",
+    "slug": "guitar-studies-i-cygni-x1",
+    "title": "Guitar studies i - Cygni X1",
+    "year": 2004,
+    "category": "Solo"
+  }
+]

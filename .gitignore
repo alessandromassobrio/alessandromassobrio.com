@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS thumbnails
+._*
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Node / build (se in futuro)
+node_modules/
+dist/
+.cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Docker (se presenti)
+docker-compose.override.yml
+
+# OS / misc
+Thumbs.db
+
+# Backup / archive
+*.bak
+*.old
+*.zip
+*.tar
+*.tar.gz
+
+# Docker (local only)
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
