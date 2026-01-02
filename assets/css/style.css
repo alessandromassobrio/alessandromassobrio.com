@@ -193,9 +193,12 @@ footer .site-nav a.active {
   opacity: 1!important;
 }
 
-a:hover, ul li:hover, ul li a:hover {
+a:hover, ul li:hover {
   text-decoration: none;
   color: #030201;
+}
+
+ul.works-list li:hover, ul li a:hover {
   opacity: 0.6;
 }
 
@@ -629,7 +632,7 @@ h2 {
   height: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 932px) {
   .audio-fullscreen {
     width: auto;
   }
@@ -640,6 +643,27 @@ h2 {
     padding-top: 25px;
     height: auto;
     width: auto;
+  }
+
+  .video-fullscreen iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 933px) AND (max-width: 1180px) {
+  .audio-fullscreen {
+    width: auto;
+  }
+
+  .video-fullscreen {
+    position: relative;
+    padding-top: 25px;
+    height: 315px;
+    width: 560px;
   }
 
   .video-fullscreen iframe {
