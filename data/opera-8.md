@@ -9,13 +9,12 @@ instrumentation: for string trio and night field recordings
 ## Info
 <strong>Text</strong>
 
-_For string trio and night field recordings, this composition unfolds like a sonic diary of statis.
-The black backs of our hills, dreams, violence within, dark clods exposed in the valley. The stars mark the invisible stream, everything takes shape as we walk, and laugh, and are together. The three of us, young, boisterous and lost, moved through a soundscape._<br>
+_The black backs of our hills, dreams, violence within, dark clods exposed in the valley. The stars mark the invisible stream, everything takes shape as we walk, and laugh, and are together. The three of us, young, boisterous and lost, moved through a soundscape._<br>
 <small>Alessandro Massobrio</small>
 
 <strong>Notes</strong>
 
-Field recordings serve as thermal imprints, places where the wall of time, the complexity of bodies and thoughts merge into a single mixture. Against it, the strings vibrate, resist and recall the stratification and pulsation of a moment.
+This composition unfolds like a sonic diary of statis. Field recordings serve as thermal imprints, places where the wall of time, the complexity of bodies and thoughts merge into a single mixture. Against it, the strings vibrate, resist and recall the stratification and pulsation of a moment.
 
 ## Performances
 -- Nothing to display here --
