@@ -229,7 +229,7 @@ footer {
   border: 1px solid #ddd;
   padding: 15px;
   margin-bottom: 20px;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 .work-card h1, .work-card h2, .work-card h3 {
@@ -249,7 +249,7 @@ footer {
 }
 
 body {
-  background-color: #fff;
+  background-color: #fcfcfc;
   font-family: 'Rubik', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   color: #030201;
   font-weight: 400;
