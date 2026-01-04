@@ -10,7 +10,7 @@ instrumentation: for string trio and night field recordings
 <strong>Text</strong>
 
 _The black backs of our hills, dreams, violence within, dark clods exposed in the valley. The stars mark the invisible stream, everything takes shape as we walk, and laugh, and are together. The three of us, young, boisterous and lost, moved through a soundscape._<br>
-<small>Alessandro Massobrio</small>
+<small>Alessandro Massobrio, near Villadeati, 2013</small>
 
 <strong>Notes</strong>
 

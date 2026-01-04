@@ -18,7 +18,7 @@ _"[...] After this, men can believe anything, expect anything: don't any of you 
 change places with dolphins and go to live in their salty pastures, and get to like
 the sounding waves of the sea more than the land, while the dolphins prefer
 the mountains."_<br>
-<small>Archilochus</small>
+<small>Archilochus, 648 BC</small>
 
 ## Performances
 <strong>Recording:</strong>
