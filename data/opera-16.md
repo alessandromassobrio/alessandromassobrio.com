@@ -4,6 +4,7 @@ year: 2007
 duration: open
 category: Solo
 instrumentation: for electric guitar, tape loop recorder and live video
+cycle: 5 Guitar Studies
 ---
 
 ## Info

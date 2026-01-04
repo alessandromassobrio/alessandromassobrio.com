@@ -4,6 +4,7 @@ year: 2004
 duration: ca. 9
 category: Solo
 instrumentation: for electric guitar  and HEX Holiest Grail
+cycle: 5 Guitar Studies
 ---
 
 ## Info

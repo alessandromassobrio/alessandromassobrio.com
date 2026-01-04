@@ -4,6 +4,7 @@ year: 2009
 duration: ca. 12'
 category: Chamber
 instrumentation: for electric guitar, electronics and light tablet
+cycle: 5 Guitar Studies
 ---
 
 ## Info

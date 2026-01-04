@@ -184,15 +184,23 @@ function renderTabs(content, meta, workId) {
 
     // Inserisco meta solo nella prima tab "Info"
     if (idx === 0) {
+      const metaItems = [
+        { label: "Year", value: meta.year },
+        { label: "Duration", value: meta.duration },
+        { label: "Category", value: meta.category },
+        { label: "Instrumentation", value: meta.instrumentation },
+        { label: "Cycle", value: meta.cycle }
+      ]
+        .filter(item => item.value && item.value.trim() !== "")
+        .map(
+          item => `<li><strong>${item.label}:</strong> ${item.value}</li>`
+        )
+        .join("");
+
       tab.innerHTML = `
         <div class="work-info-meta">
-          <h1>${meta.title || ""}</h1>
-          <ul>
-            <li><strong>Year:</strong> ${meta.year || ""}</li>
-            <li><strong>Duration:</strong> ${meta.duration || ""}</li>
-            <li><strong>Category:</strong> ${meta.category || ""}</li>
-            <li><strong>Instrumentation:</strong> ${meta.instrumentation || ""}</li>
-          </ul>
+          ${meta.title ? `<h1>${meta.title}</h1>` : ""}
+          ${metaItems ? `<ul>${metaItems}</ul>` : ""}
         </div>
         ${marked.parse(section.body)}
       `;

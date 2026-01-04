@@ -2,7 +2,7 @@
 title: Studi fenomenologici:legno
 year: 2014
 duration: ca. 14'
-category: Chamber
+category: Solo
 instrumentation: for electric guitar
 ---
 

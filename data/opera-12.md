@@ -4,6 +4,7 @@ year: 2010
 duration: ca. 11'
 category: Solo
 instrumentation: for electric guitar
+cycle: 5 Guitar Studies
 ---
 
 ## Info
