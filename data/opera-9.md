@@ -9,12 +9,16 @@ instrumentation: for sax, accordion, cello and percussion (without percussionist
 ## Info
 <strong>Notes</strong>
 
-"[...] After this, men can believe anything, expect anything: don't any of you be surprised in future if land beasts
+Archilochus’ words capture a moment when the order of the world appears to falter.
+Behind the image of exchanged habitats and overturned instincts lies the perception of a solar eclipse: an unreal light spreading across the world, the vision of a black disk suspended in the sky, opening a sense of awe and distant sacrality through which space itself is revealed.
+
+<strong>Text</strong>
+
+_"[...] After this, men can believe anything, expect anything: don't any of you be surprised in future if land beasts
 change places with dolphins and go to live in their salty pastures, and get to like
 the sounding waves of the sea more than the land, while the dolphins prefer
-the mountains."
-
-_Archilochus_
+the mountains."_<br>
+<small>Archilochus</small>
 
 ## Performances
 <strong>Recording:</strong>
