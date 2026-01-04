@@ -9,7 +9,8 @@ instrumentation: for string trio and night field recordings
 ## Info
 <strong>Text</strong>
 
-_The dark backs of our hills, dreams, violence within, dark clods exposed in the valley. The stars mark the invisible stream, everything takes shape as we walk, and laugh, and are together. The three of us, young, boisterous and lost, moved through a soundscape._<br>
+_Il dorso scuro delle nostre colline, sogni e violenze là dentro, fino sotto a valle, dove le zolle di terra espongono il lato chiaro. 
+Le stelle segnano il corso invisibile del fiume, e tutto prende forma mentre camminiamo, ridiamo e siamo insieme. Noi tre, giovani, chiassosi e smarriti, ci muovevamo attraverso un paesaggio sonoro._
 <small>Alessandro Massobrio, near Villadeati, 2013</small>
 
 <strong>Notes</strong>
