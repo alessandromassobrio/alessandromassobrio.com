@@ -9,7 +9,7 @@ instrumentation: for string trio and night field recordings
 ## Info
 <strong>Text</strong>
 
-_Il dorso scuro delle nostre colline, sogni e violenze là dentro, fino sotto a valle, dove le zolle di terra espongono il lato chiaro. 
+_Il dorso nero delle nostre colline, sogni e violenza là dentro, fino sotto a valle, dove le zolle di terra espongono il lato chiaro nell'oscurità calda di una notte. 
 Le stelle segnano il corso invisibile del fiume, e tutto prende forma mentre camminiamo, ridiamo e siamo insieme. Noi tre, giovani, chiassosi e smarriti, ci muovevamo attraverso un paesaggio sonoro._<br>
 <small>Alessandro Massobrio, near Villadeati, 2013</small>
 
