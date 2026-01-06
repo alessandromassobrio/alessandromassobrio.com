@@ -9,8 +9,22 @@ instrumentation: for string trio and night field recordings
 ## Info
 <strong>Text</strong>
 
-_Il dorso nero delle nostre colline, sogni e violenza là dentro, fino sotto a valle, dove le zolle di terra espongono il lato chiaro nella calda oscurità notturna. 
-Le stelle segnano il corso invisibile del ruscello, e tutto prende forma mentre camminiamo, ridiamo e siamo insieme. Noi tre, giovani, chiassosi e smarriti, ci muovevamo attraverso un paesaggio sonoro._<br>
+_Di notte, le schiene nere di questi boschi neri fanno proprio 'giochino'<br>
+e queste colline schiacciate, in bilico, sono ancora più vicine e cariche di febbre.
+
+Quanta poca compassione là in mezzo, eppure.
+
+Sul fondo, dove parte il terrapieno,<br>
+tra le zolle perfette, col lato chiaro per aria,<br>
+vicino ai frutti caduti sulla poca erba,<b>
+tra le file di pioppi e rovi,<br>
+noi tre, giovani, chiassosi,<br>
+abbiamo riso.<br>
+Sperduti, abbiamo camminato.
+
+Le stelle mostrano il ruscello, e vibrano aguzze, molto sonore.<br>
+Tutto prende forma andando, noi tre, insieme,<br>
+in quel garbuglio nero di pause e pensieri._<br>
 <small>Alessandro Massobrio, near Villadeati, 2013</small>
 
 <strong>Notes</strong>
