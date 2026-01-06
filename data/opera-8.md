@@ -16,7 +16,7 @@ _Quanta poca compassione là in mezzo, eppure._
 
 _Sul fondo, dove parte il terrapieno,_<br>
 _tra le zolle perfette, col lato chiaro per aria,_<br>
-_vicino ai frutti caduti sulla poca erba,_<b>
+_vicino ai frutti caduti sulla poca erba,_<br>
 _tra le file di pioppi e i rovi,_<br>
 _noi tre, giovani, chiassosi,_<br>
 _abbiamo riso._<br>
