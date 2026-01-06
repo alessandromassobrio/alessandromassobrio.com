@@ -10,21 +10,23 @@ instrumentation: for string trio and night field recordings
 <strong>Text</strong>
 
 _Di notte, le schiene nere di questi boschi neri fanno proprio 'giochino'<br>
-e queste colline schiacciate, in bilico, sono ancora più vicine e cariche di febbre.
+e queste colline schiacciate in bilico sono ancora più vicine e cariche di febbre.
 
 Quanta poca compassione là in mezzo, eppure.
 
 Sul fondo, dove parte il terrapieno,<br>
 tra le zolle perfette, col lato chiaro per aria,<br>
 vicino ai frutti caduti sulla poca erba,<b>
-tra le file di pioppi e rovi,<br>
+tra le file di pioppi e i rovi,<br>
 noi tre, giovani, chiassosi,<br>
 abbiamo riso.<br>
 Sperduti, abbiamo camminato.
 
-Le stelle mostrano il ruscello, e vibrano aguzze, molto sonore.<br>
-Tutto prende forma andando, noi tre, insieme,<br>
-in quel garbuglio nero di pause e pensieri._<br>
+Le stelle mostrano il ruscello e vibrano aguzze. Molto sonore.<br>
+Facciamo pausa, ascoltiamo. Poi riprendiamo a camminare,<br>seguiamo i pensieri e l'aria ancora calda. Annusiamo.
+
+Tutto prende forma mentre andiamo legati in quell'ora._
+
 <small>Alessandro Massobrio, near Villadeati, 2013</small>
 
 <strong>Notes</strong>
