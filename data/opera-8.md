@@ -10,22 +10,22 @@ instrumentation: for string trio and night field recordings
 <strong>Text</strong>
 
 _Di notte, le schiene nere di questi boschi neri fanno proprio 'giochino'<br>
-e queste colline schiacciate in bilico sono ancora più vicine e cariche di febbre.
+e queste colline schiacciate in bilico sono ancora più vicine e cariche di febbre._
 
-Quanta poca compassione là in mezzo, eppure.
+_Quanta poca compassione là in mezzo, eppure._
 
-Sul fondo, dove parte il terrapieno,<br>
-tra le zolle perfette, col lato chiaro per aria,<br>
-vicino ai frutti caduti sulla poca erba,<b>
-tra le file di pioppi e i rovi,<br>
-noi tre, giovani, chiassosi,<br>
-abbiamo riso.<br>
-Sperduti, abbiamo camminato.
+_Sul fondo, dove parte il terrapieno,_<br>
+_tra le zolle perfette, col lato chiaro per aria,_<br>
+_vicino ai frutti caduti sulla poca erba,_<b>
+_tra le file di pioppi e i rovi,_<br>
+_noi tre, giovani, chiassosi,_<br>
+_abbiamo riso._<br>
+_Sperduti, abbiamo camminato._
 
-Le stelle mostrano il ruscello e vibrano aguzze. Molto sonore.<br>
-Facciamo pausa, ascoltiamo. Poi riprendiamo a camminare,<br>seguiamo i pensieri e l'aria ancora calda. Annusiamo.
+_Le stelle mostrano il ruscello e vibrano aguzze. Molto sonore._<br>
+_Facciamo pausa, ascoltiamo. Poi riprendiamo a camminare,<br>seguiamo i pensieri e l'aria_ _ancora calda. Annusiamo._
 
-Tutto prende forma mentre andiamo legati in quell'ora._
+_Tutto prende forma mentre andiamo legati in quell'ora._
 
 <small>Alessandro Massobrio, near Villadeati, 2013</small>
 
