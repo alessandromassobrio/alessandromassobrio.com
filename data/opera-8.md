@@ -7,31 +7,41 @@ instrumentation: for string trio and night field recordings
 ---
 
 ## Info
-<strong>Text</strong>
-
-_Di notte, le schiene nere di questi boschi neri fanno proprio 'giochino'<br>
-e queste colline schiacciate in bilico sono ancora più vicine e cariche di febbre._
-
-_Quanta poca compassione là in mezzo, eppure._
-
-_Sul fondo, dove parte il terrapieno,_<br>
-_tra le zolle perfette, col lato chiaro per aria,_<br>
-_vicino ai frutti caduti sulla poca erba,_<br>
-_tra le file di pioppi e i rovi,_<br>
-_noi tre, giovani, chiassosi,_<br>
-_abbiamo riso._<br>
-_Sperduti, abbiamo camminato._
-
-_Le stelle mostrano il ruscello e vibrano aguzze. Molto sonore._<br>
-_Facciamo pausa, ascoltiamo. Poi riprendiamo a camminare,<br>seguiamo i pensieri e l'aria_ _ancora calda. Annusiamo._
-
-_Tutto prende forma mentre andiamo legati in quell'ora._
-
-<small>Alessandro Massobrio, near Villadeati, 2013</small>
-
 <strong>Notes</strong>
 
 This composition unfolds like a sonic diary of statis. Field recordings serve as thermal imprints, places where the wall of time, the complexity of bodies and thoughts merge into a single mixture. Against it, the strings vibrate, resist and recall the stratification and pulsation of a moment.
+
+<strong>Text</strong>
+
+Notte insieme col microfono<br>
+<small>
+(Monferrato 19 Aprile 2013)<br>
+A. Massobrio<br>
+</small>
+<br>
+<div style="font-style:italic">
+In questi boschi bui<br>
+le grandi schiene nere<br>
+delle colline alte, instabili,<br>
+fanno salire la febbre.
+
+"Fanno giochino", si diceva, eppure,<br>
+quanta poca compassione là in mezzo.
+
+Sul fondo, dove parte il terrapieno<br>
+tra le zolle perfette, col lato chiaro in su<br>
+vicino ai frutti caduti sulla poca erba<br>
+tra le file di pioppi e i cespugli di rovi<br>
+noi tre, giovani, chiassosi,<br>
+abbiamo riso.<br>
+Sperduti, abbiamo camminato.
+
+Le stelle mostrano il ruscello e vibrano aguzze. Molto sonore.<br>
+Facciamo pausa, ascoltiamo. Poi riprendiamo a camminare<br>
+seguiamo i pensieri e l'aria ancora calda. Annusiamo.
+
+Tutto prende forma mentre andiamo legati in quell'ora.
+</div>
 
 ## Performances
 -- Nothing to display here --
