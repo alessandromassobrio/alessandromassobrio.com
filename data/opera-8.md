@@ -13,14 +13,13 @@ This composition unfolds like a sonic diary of statis. Field recordings serve as
 
 <strong>Text</strong>
 
-Notte insieme col microfono<br>
 <small>
 (Monferrato 19 Aprile 2013)<br>
 A. Massobrio<br>
 </small>
 <br>
 <div style="font-style:italic">
-In questi boschi bui<br>
+In questi prati bui<br>
 le grandi schiene nere<br>
 delle colline alte, instabili,<br>
 fanno salire la febbre.
@@ -28,10 +27,10 @@ fanno salire la febbre.
 "Fanno giochino", si diceva, eppure,<br>
 quanta poca compassione là in mezzo.
 
-Sul fondo, dove parte il terrapieno<br>
-tra le zolle perfette, col lato chiaro in su<br>
+Sotto, dove parte il terrapieno<br>
+tra le zolle perfette, col lato chiaro in sù<br>
 vicino ai frutti caduti sulla poca erba<br>
-tra le file di pioppi e i cespugli di rovi<br>
+tra le file di pioppi e le siepi di rovo<br>
 noi tre, giovani, chiassosi,<br>
 abbiamo riso.<br>
 Sperduti, abbiamo camminato.
