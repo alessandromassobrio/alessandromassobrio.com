@@ -7,16 +7,12 @@ fetch("/data/updates.md")
     updates.forEach(updateText => {
       const lines = updateText.trim().split("\n");
       let meta = {};
-      let bodyLines = [];
-
-      // legge front-matter (title e date)
-      if (lines[0].startsWith("title:")) {
-        meta.title = lines[0].replace("title:", "").trim();
-        meta.date = lines[1].replace("date:", "").trim();
-        bodyLines = lines.slice(2);
-      } else {
-        bodyLines = lines;
-      }
+      // legge front-matter (title, date, description)
+      lines.forEach(line => {
+        if (line.startsWith("title:")) meta.title = line.replace("title:", "").trim();
+        else if (line.startsWith("date:")) meta.date = line.replace("date:", "").trim();
+        else if (line.startsWith("description:")) meta.description = line.replace("description:", "").trim();
+      });
 
       const updateDiv = document.createElement("div");
       updateDiv.className = "update";
@@ -24,7 +20,7 @@ fetch("/data/updates.md")
       updateDiv.innerHTML = `
         <div class="update-body">
           <strong>${meta.title}</strong>
-          <p>${bodyLines.join("\n")}</p>
+          <p>${meta.description ?? ""}</p>
         </div>
         <div class="update-date">${meta.date}</div>
       `;
