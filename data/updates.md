@@ -1,7 +1,7 @@
 ---
-title: New piece
+title: Unerhörte Musik
 date: 19.05.2026
-description: Vector spans studies, for 5 cymbals, written for and performed by Sabrina Ma. Unerhörte Musik, Berlin.
+description: Vector spans studies, for 5 cymbals, written for and performed by Sabrina Ma.
 ---
 title: New website online
 date: 01.01.2026
