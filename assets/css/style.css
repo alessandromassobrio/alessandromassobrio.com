@@ -303,6 +303,15 @@ h2 {
   width: 50%;
 }
 
+@media (max-width: 768px) {
+  .profile {
+  width: 100%;
+  }
+  img.profile-picture {
+    width: 100%;
+  }
+}
+
 /*
 * Works Tab System
 */
