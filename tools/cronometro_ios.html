@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="mobile-web-app-capable" content="yes">
 <title>Cronometro</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -100,13 +101,19 @@
     justify-content: center;
     gap: 40px;
     padding: 24px;
-    opacity: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
     background: linear-gradient(transparent, rgba(0,0,0,0.8));
+    pointer-events: none;
+  }
+
+  #controls.visible {
+    opacity: 1;
+    pointer-events: auto;
   }
 
   @media (hover: hover) {
-    #controls { opacity: 0; transition: opacity 0.3s ease; }
-    body:hover #controls { opacity: 1; cursor: default; }
+    body:hover #controls { opacity: 1; pointer-events: auto; cursor: default; }
   }
 
   body:hover { cursor: default; }
@@ -129,14 +136,20 @@
   #fullscreen-btn {
     position: fixed;
     top: 20px; right: 20px;
-    opacity: 1;
+    opacity: 0;
+    transition: opacity 0.3s;
     padding: 8px 16px;
     font-size: 12px;
+    pointer-events: none;
+  }
+
+  #fullscreen-btn.visible {
+    opacity: 1;
+    pointer-events: auto;
   }
 
   @media (hover: hover) {
-    #fullscreen-btn { opacity: 0; transition: opacity 0.3s; }
-    body:hover #fullscreen-btn { opacity: 1; }
+    body:hover #fullscreen-btn { opacity: 1; pointer-events: auto; }
   }
 </style>
 </head>
@@ -262,6 +275,27 @@
     pulse.classList.remove('beat', 'countdown-beat');
     startStop.textContent = 'Start';
   }
+
+  const controls = document.getElementById('controls');
+  let controlsVisible = false;
+  let hideTimeout = null;
+
+  function showControls() {
+    controlsVisible = true;
+    controls.classList.add('visible');
+    fsBtn.classList.add('visible');
+    clearTimeout(hideTimeout);
+    hideTimeout = setTimeout(hideControls, 3000);
+  }
+
+  function hideControls() {
+    controlsVisible = false;
+    controls.classList.remove('visible');
+    fsBtn.classList.remove('visible');
+  }
+
+  display.addEventListener('click', showControls);
+  display.addEventListener('touchend', (e) => { e.preventDefault(); showControls(); });
 
   startStop.addEventListener('click', () => {
     if (interval) {
