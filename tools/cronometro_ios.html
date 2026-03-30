@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>Cronometro</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+  html, body {
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+  }
+
+  body {
+    background: #000;
+    color: #fff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    user-select: none;
+    cursor: none;
+  }
+
+  #header {
+    position: fixed;
+    top: 24px;
+    left: 32px;
+    text-align: left;
+  }
+
+  #composer {
+    font-size: 1.1vw;
+    font-weight: 400;
+    color: rgba(255,255,255,0.18);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  #title {
+    font-size: 1vw;
+    font-weight: 100;
+    color: rgba(255,255,255,0.14);
+    letter-spacing: 0.05em;
+    font-style: italic;
+    margin-top: 3px;
+  }
+
+  #time-marker {
+    font-size: 5vw;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    color: rgba(255,255,255,0.2);
+    height: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s ease;
+  }
+
+  #time-marker.flash { color: rgba(255,255,255,0.9); }
+
+  #display {
+    font-size: 42vw;
+    font-weight: 100;
+    letter-spacing: -0.02em;
+    line-height: 1;
+    transition: color 0.1s ease;
+    text-align: center;
+  }
+
+  #display.countdown { color: #c0392b; }
+  #display.go { color: #fff; }
+
+  #pulse {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #fff;
+    margin-top: 3vh;
+    opacity: 0.15;
+    transition: opacity 0.05s ease, transform 0.05s ease;
+  }
+
+  #pulse.beat { opacity: 1; transform: scale(1.4); }
+  #pulse.countdown-beat { background: #c0392b; opacity: 1; transform: scale(1.2); }
+
+  #controls {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 24px;
+    opacity: 1;
+    background: linear-gradient(transparent, rgba(0,0,0,0.8));
+  }
+
+  @media (hover: hover) {
+    #controls { opacity: 0; transition: opacity 0.3s ease; }
+    body:hover #controls { opacity: 1; cursor: default; }
+  }
+
+  body:hover { cursor: default; }
+
+  button {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.3);
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 10px 28px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  button:hover { background: rgba(255,255,255,0.2); }
+
+  #fullscreen-btn {
+    position: fixed;
+    top: 20px; right: 20px;
+    opacity: 1;
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  @media (hover: hover) {
+    #fullscreen-btn { opacity: 0; transition: opacity 0.3s; }
+    body:hover #fullscreen-btn { opacity: 1; }
+  }
+</style>
+</head>
+<body>
+
+<div id="header">
+  <div id="composer">Alessandro Massobrio</div>
+  <div id="title">Span-vectors studies (2026)</div>
+</div>
+<div id="time-marker">—</div>
+<div id="display"></div>
+<div id="pulse"></div>
+
+<div id="controls">
+  <button id="startStop">Start</button>
+  <button id="reset">Reset</button>
+</div>
+<button id="fullscreen-btn">Fullscreen</button>
+
+<script>
+  const COUNTDOWN_FROM = 10;
+
+  let state = 'idle';   // idle | countdown | running
+  let seconds = 0;
+  let countdown = COUNTDOWN_FROM;
+  let interval = null;
+  let pulseTimeout = null;
+  let markerTimeout = null;
+
+  const display = document.getElementById('display');
+  const pulse = document.getElementById('pulse');
+  const marker = document.getElementById('time-marker');
+  const startStop = document.getElementById('startStop');
+  const resetBtn = document.getElementById('reset');
+  const fsBtn = document.getElementById('fullscreen-btn');
+
+  function formatTime(s) {
+    if (s < 60) return s + 's';
+    const m = Math.floor(s / 60);
+    const rem = s % 60;
+    if (rem === 0) return m + ' min';
+    return m + ' min ' + rem + 's';
+  }
+
+  function doPulse(isCountdown) {
+    pulse.classList.remove('beat', 'countdown-beat');
+    if (isCountdown) {
+      pulse.classList.add('countdown-beat');
+    } else {
+      pulse.classList.add('beat');
+      display.style.color = '#fff';
+    }
+    clearTimeout(pulseTimeout);
+    pulseTimeout = setTimeout(() => {
+      pulse.classList.remove('beat', 'countdown-beat');
+      if (!isCountdown) display.style.color = 'rgba(255,255,255,0.85)';
+    }, 80);
+  }
+
+  function tick() {
+    if (state === 'countdown') {
+      countdown--;
+      if (countdown <= 0) {
+        // transizione a running
+        state = 'running';
+        seconds = 0;
+        display.classList.remove('countdown');
+        display.classList.add('go');
+        display.textContent = '1';
+        doPulse(false);
+      } else {
+        display.textContent = countdown;
+        doPulse(true);
+      }
+    } else if (state === 'running') {
+      seconds++;
+      const beat = (seconds % 5) + 1;
+      display.textContent = beat;
+      doPulse(false);
+
+      if (seconds > 0 && seconds % 30 === 0) {
+        marker.textContent = formatTime(seconds);
+        marker.classList.add('flash');
+        clearTimeout(markerTimeout);
+        markerTimeout = setTimeout(() => marker.classList.remove('flash'), 4000);
+      }
+    }
+  }
+
+  function startCountdown() {
+    state = 'countdown';
+    countdown = COUNTDOWN_FROM;
+    display.style.color = '';
+    display.classList.add('countdown');
+    display.classList.remove('go');
+    display.textContent = countdown;
+    startStop.textContent = 'Stop';
+    interval = setInterval(tick, 1000);
+  }
+
+  function resume() {
+    startStop.textContent = 'Stop';
+    interval = setInterval(tick, 1000);
+  }
+
+  function stop() {
+    startStop.textContent = 'Start';
+    clearInterval(interval);
+    interval = null;
+  }
+
+  function reset() {
+    clearInterval(interval);
+    interval = null;
+    state = 'idle';
+    seconds = 0;
+    countdown = COUNTDOWN_FROM;
+    display.textContent = '';
+    display.style.color = '#fff';
+    display.classList.remove('countdown', 'go');
+    marker.textContent = '—';
+    marker.classList.remove('flash');
+    pulse.classList.remove('beat', 'countdown-beat');
+    startStop.textContent = 'Start';
+  }
+
+  startStop.addEventListener('click', () => {
+    if (interval) {
+      stop();
+    } else {
+      if (state === 'idle') startCountdown();
+      else resume();
+    }
+  });
+
+  resetBtn.addEventListener('click', reset);
+  fsBtn.addEventListener('click', toggleFullscreen);
+
+  // touch support per iPad
+  startStop.addEventListener('touchend', (e) => { e.preventDefault(); startStop.click(); });
+  resetBtn.addEventListener('touchend', (e) => { e.preventDefault(); reset(); });
+  fsBtn.addEventListener('touchend', (e) => { e.preventDefault(); toggleFullscreen(); });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.code === 'Space') {
+      e.preventDefault();
+      if (interval) stop();
+      else if (state === 'idle') startCountdown();
+      else resume();
+    }
+    if (e.code === 'KeyR') reset();
+    if (e.code === 'KeyF') toggleFullscreen();
+  });
+
+  function toggleFullscreen() {
+    if (document.fullscreenEnabled) {
+      if (!document.fullscreenElement) document.documentElement.requestFullscreen();
+      else document.exitFullscreen();
+    } else if (document.webkitFullscreenEnabled) {
+      if (!document.webkitFullscreenElement) document.documentElement.webkitRequestFullscreen();
+      else document.webkitExitFullscreen();
+    }
+  }
+
+  fsBtn.addEventListener('click', toggleFullscreen);
+</script>
+</body>
+</html>
