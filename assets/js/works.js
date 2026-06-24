@@ -246,6 +246,8 @@ function renderTabs(content, meta, workId) {
   reqOpt.value = requestId;
   reqOpt.textContent = "Request score";
   select.appendChild(reqOpt);
+
+  youtubefacades(detail);
 }
 
 // -----------------------------
