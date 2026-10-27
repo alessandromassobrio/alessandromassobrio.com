@@ -28,7 +28,7 @@ fanno salire la febbre.
 quanta poca compassione là in mezzo.
 
 Sotto, dove parte il terrapieno<br>
-tra le zolle perfette, col lato chiaro in sù<br>
+tra le zolle perfette, col lato luminoso in sù<br>
 vicino ai frutti caduti sulla poca erba<br>
 tra le file di pioppi e le siepi di rovo<br>
 noi tre, giovani, chiassosi,<br>
