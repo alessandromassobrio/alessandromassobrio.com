@@ -1,0 +1,30 @@
+{
+  "catalog": "~/Library/CloudStorage/GoogleDrive-alessandro.massobrio@gmail.com/Il mio Drive/AM Catalogo",
+  "works": {
+    "piccoli-studi-arboreali": { "pdf": "Chamber/AM2025C Alessandro Massobrio_Piccoli-studi-arboreali/Piccoli studi arboreali (Rhizome) - Full score.pdf" },
+    "h-he": { "pdf": "Chamber/AM2026C Alessandro Massobrio_H+He/Massobrio_H+He_mosaik-UT3_0.5.pdf", "pages": "1,3-18" },
+    "vector-span-studies": { "pdf": "~/Research/research/case study/vector span studies/vector-span-studies_v3.2--PORTR.pdf" },    "il-primo-sguardo": { "pdf": "Chamber/AM2024C Alessandro Massobrio_Il-primo-sguardo/Massobrio-Il primo sguardo (arp, s, vl) -- fullscore.pdf" },
+    "calanchi": { "pdf": "Chamber/AM2022C Alessandro Massobrio_Music-Current_Calanchi/Alessandro Massobrio_Calanchi/Alessandro Massobrio_Calanchi.pdf" },
+    "lichtbrechungen": { "pdf": "Chamber/AM2021C Alessandro Massobrio_Lichtbrechungen/Alessandro Massobrio_Lichtbrechungen/Alessandro Massobrio_Lichtbrechungen_Klangforum Wien.pdf" },
+    "senza": { "pdf": [
+      "Chamber/AM2019 20C Alessandro Massobrio_Senza/MASSOBRIO_Senza_MISE-EN-FullScore.pdf",
+      "Chamber/AM2019 20C Alessandro Massobrio_Senza/SOW-Milano-mdi/A.Massobrio-Senza-rev MilanoSOW.pdf"
+      ],
+    "labels": ["Version 1 (2019)", "Rev. mdi (2024)"] },
+    "linee-radiali": null,
+    "a-lungo": { "pdf": "Solo/AM2012S Alessandro Massobrio_…a lungo/A.MASSOBRIO - ...a lungo.pdf" },
+    "studi-fenomenologici-legno": { "pdf": "Solo/AM2004 14S Alessandro Massobrio_Electric-Guitar Studies/A.MASSOBRIO - v. Studi fenomenologici_legno.pdf" },
+    "villadeati": null,
+    "non-ve-cosa": { "pdf": "Chamber/AM2012C Alessandro Massobrio_Non v'è cosa/non v'è cosa (sax-cello-akk-perc).pdf" },
+    "emergences": { "pdf": "Large Ensemble/AM2011C Alessandro Massobrio Emergences/Emergences for enesemble miniature foir 22 mus - Partitura del concerto.pdf" },
+    "debole-forza": { "pdf": [
+      "Solo/AM2010S Alessandro Massobrio_debole forza/Debole forza - esploso rev. 2022--3steaves - Full Score.pdf",
+      "Solo/AM2010S Alessandro Massobrio_debole forza/debole_forza-esploso_rev.2022--Performance-Score_VERTICAL_COLORED_CUES_A4.pdf"
+    ],
+    "labels": ["V.1 2010", "Rev. 2022"] },
+    "guitar-studies-iii-emergences-pressione-e-scordatura": { "pdf": "Solo/AM2004 14S Alessandro Massobrio_Electric-Guitar Studies/Emegences/A.MASSOBRIO - ii. Emergences for e-guitar - percussione e scordatura.pdf" },
+    "pale-blue-meadows": { "pdf": "Chamber/AM2008C Alessandro Massobrio_Pale Blue Meadows/Alessandro Massobrio - Pale Blue Meadows (manuscript - performance score - for Zwerm).pdf" },
+    "guitar-studies-ii-submerged-choirs": { "pdf": "Solo/AM2004 14S Alessandro Massobrio_Electric-Guitar Studies/Submerged Choirs/A.MASSOBRIO - iii - Submerged Coirs.pdf", "max_cell": 800 },
+    "guitar-studies-i-cygni-x1": { "pdf": "Solo/AM2004 14S Alessandro Massobrio_Electric-Guitar Studies/Cygni x1/A.MASSOBRIO - i. X1 Cigny - attrazione e gravitazione.pdf" }
+  }
+}

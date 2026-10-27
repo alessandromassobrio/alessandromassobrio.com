@@ -4,12 +4,54 @@ year: 2020
 duration: ca. 7'
 category: Chamber
 instrumentation: for piano and percussion
+score_overview: /assets/img/scores/A.Massobrio_Senza_2020_Version-1-2019.png?v=a5cc66c5 | /assets/img/scores/A.Massobrio_Senza_2020_Rev-mdi-2024.png?v=d57c6396
+score_overview_labels: Version 1 (2019) | Rev. mdi (2024)
+score_pages: 39 | 25
 ---
 
 ## Info
 <strong>Notes</strong>
 
 Dedicated to my soul mate Paola Scarzella.
+
+<strong>Text</strong>
+
+<small>
+(senza tempo)<br>
+A. Massobrio<br>
+</small>
+<br>
+<div style="font-style:italic">
+Provo a cercarti: batto colpi.
+
+Forse rispondi.
+
+Dove precipita l'onda rasente, forse,<br>
+traspari.
+
+Nelle estati senz'acqua<br>
+negli inverni senza fuoco<br>
+manca il tuo tono.
+
+Mancano il tuo accento,<br>
+la tua noia ardente<br>
+nei pomeriggi indaffarati<br>
+nulla, della tua postura decente<br>
+della tua statura pregiata<br>
+nelle parole pronunciate oggi, intorno,<br>
+senza suono<br>
+utili come banconote fuori corso<br>
+cazzate sorde, boriose,<br>
+devitalizzate, pesanti<br>
+come la morte di chi, nato morto<br>
+vuol star leggero<br>
+
+Senza amplificare il gioco, senza acquistare il retrogusto, senza ridere forte<br>
+e senza soffocare i respiri.<br>
+Così, procediamo,<br>
+in minoranza,<br>
+in due.
+</div>
 
 ## Performances
 <strong>Premiere:</strong><br>

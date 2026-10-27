@@ -4,6 +4,9 @@ year: 2010 (rev. 2022)
 duration: ca. 11'
 category: Solo
 instrumentation: for piano and e-bows
+score_overview: /assets/img/scores/A.Massobrio_debole-forza_2010-rev-2022_V-1-2010.png?v=fa751279 | /assets/img/scores/A.Massobrio_debole-forza_2010-rev-2022_Rev-2022.png?v=2a3bde53
+score_overview_labels: V.1 2010 | Rev. 2022
+score_pages: 20 | 17
 ---
 
 ## Info

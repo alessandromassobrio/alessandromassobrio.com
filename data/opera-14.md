@@ -4,6 +4,8 @@ year: 2008
 duration: ca. 9'
 category: Chamber
 instrumentation: for electric guitar quartet
+score_overview: /assets/img/scores/A.Massobrio_Pale-Blue-Meadows_2008.png?v=fb3dbe77
+score_pages: 4
 ---
 
 ## Info

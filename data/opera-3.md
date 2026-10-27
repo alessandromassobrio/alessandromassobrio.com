@@ -4,6 +4,8 @@ year: 2021
 duration: ca. 8'
 category: Chamber
 instrumentation: for flute, clarinet, alto sax, accordion
+score_overview: /assets/img/scores/A.Massobrio_Lichtbrechungen_2021.png?v=e54c7385
+score_pages: 8
 ---
 
 ## Info

@@ -4,6 +4,8 @@ year: 2014
 duration: ca. 14'
 category: Solo
 instrumentation: for electric guitar
+score_overview: /assets/img/scores/A.Massobrio_Studi-fenomenologici-legno_2014.png?v=50d16b4e
+score_pages: 11
 ---
 
 ## Info

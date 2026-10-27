@@ -4,6 +4,8 @@ year: 2024
 duration: ca. 12'
 category: Chamber
 instrumentation: for voice, harp and violin
+score_overview: /assets/img/scores/A.Massobrio_Il-primo-sguardo_2024.png?v=e2fb7399
+score_pages: 39
 ---
 
 ## Info

@@ -5,6 +5,8 @@ duration: open
 category: Solo
 instrumentation: for electric guitar, tape loop recorder and live video
 cycle: 5 Guitar Studies
+score_overview: /assets/img/scores/A.Massobrio_Guitar-studies-ii-Submerged-Choirs_2007.png?v=c1725f73
+score_pages: 1
 ---
 
 ## Info

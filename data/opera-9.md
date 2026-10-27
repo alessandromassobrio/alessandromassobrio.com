@@ -4,6 +4,8 @@ year: 2012
 duration: ca. 14'
 category: Chamber
 instrumentation: for sax, accordion, cello and percussion (without percussionist)
+score_overview: /assets/img/scores/A.Massobrio_Non-ve-cosa_2012.png?v=5ae744e5
+score_pages: 17
 ---
 
 ## Info

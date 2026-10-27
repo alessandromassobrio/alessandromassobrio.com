@@ -4,6 +4,8 @@ year: 2023
 duration: ca. 18'
 category: Chamber
 instrumentation: for piano and electric guitar
+score_overview: /assets/img/scores/A.Massobrio_Calanchi_2023.png?v=e373eaaf
+score_pages: 26
 ---
 
 ## Info

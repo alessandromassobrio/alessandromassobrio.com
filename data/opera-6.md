@@ -4,6 +4,8 @@ year: 2014
 duration: ca. 10'
 category: Solo
 instrumentation: for piano
+score_overview: /assets/img/scores/A.Massobrio_a-lungo_2014.png?v=06d19314
+score_pages: 17
 ---
 
 ## Info

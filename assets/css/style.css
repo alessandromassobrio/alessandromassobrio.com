@@ -426,6 +426,35 @@ h2 {
   padding: 0;
 }
 
+/* ===== SCORE OVERVIEW ===== */
+
+.score-overview {
+  margin: 2.5rem 0 1rem;
+  max-width: 800px;
+}
+
+.score-overview img {
+  display: block;
+  width: 100%;
+  height: auto;
+  mix-blend-mode: multiply; /* il bianco della carta si fonde con lo sfondo */
+  transition: opacity 0.3s ease;
+}
+
+.score-overview + .score-overview {
+  margin-top: 1.5rem;
+}
+
+.score-overview figcaption {
+  font-size: 0.85rem;
+  color: #777;
+  margin-bottom: 0.5rem;
+}
+
+.score-overview a:hover img {
+  opacity: 0.85;
+}
+
 /* ===== WORKS LAYOUT ===== */
 
 .works-layout {

@@ -4,6 +4,8 @@ year: 2026
 duration: ca. 9'30''
 category: Chamber
 instrumentation: (saxophone, violine, cello)
+score_overview: /assets/img/scores/A.Massobrio_H+He_2026.png?v=ab8c902d
+score_pages: 18
 ---
 
 ## Info

@@ -5,6 +5,8 @@ duration: ca. 12'
 category: Chamber
 instrumentation: for electric guitar, electronics and light tablet
 cycle: 5 Guitar Studies
+score_overview: /assets/img/scores/A.Massobrio_Guitar-studies-iii-Emergences-percussione-e-scordatura_2009.png?v=6b0444fa
+score_pages: 11
 ---
 
 ## Info

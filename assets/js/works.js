@@ -187,6 +187,7 @@ function renderTabs(content, meta, workId) {
       const metaItems = [
         { label: "Year", value: meta.year },
         { label: "Duration", value: meta.duration },
+        { label: "Pages", value: formatScorePages(meta) },
         { label: "Category", value: meta.category },
         { label: "Instrumentation", value: meta.instrumentation },
         { label: "Cycle", value: meta.cycle }
@@ -203,6 +204,7 @@ function renderTabs(content, meta, workId) {
           ${metaItems ? `<ul>${metaItems}</ul>` : ""}
         </div>
         ${marked.parse(section.body)}
+        ${renderScoreOverview(meta)}
       `;
     } else {
       tab.innerHTML = marked.parse(section.body);
@@ -248,6 +250,36 @@ function renderTabs(content, meta, workId) {
   select.appendChild(reqOpt);
 
   youtubefacades(detail);
+}
+
+// -----------------------------
+// Score overview (tutte le pagine della partitura in un'unica immagine)
+// -----------------------------
+function formatScorePages(meta) {
+  // "17" oppure, con più partiture, "39 | 20" + etichette → "Version 1 (2019): 39 · Rev. mdi (2024): 20"
+  if (!meta.score_pages) return "";
+  const counts = meta.score_pages.split("|").map(s => s.trim()).filter(Boolean);
+  if (counts.length === 1) return counts[0];
+  const labels = (meta.score_overview_labels || "").split("|").map(s => s.trim());
+  return counts.map((n, i) => labels[i] ? `${labels[i]}: ${n}` : n).join(" · ");
+}
+
+function renderScoreOverview(meta) {
+  if (!meta.score_overview) return "";
+  // più partiture: "url1 | url2" con etichette facoltative "Label 1 | Label 2"
+  const srcs = meta.score_overview.split("|").map(s => s.trim()).filter(Boolean);
+  const labels = (meta.score_overview_labels || "").split("|").map(s => s.trim());
+  return srcs.map((src, i) => {
+    const label = labels[i] || "";
+    const alt = `${meta.title || "Score"}${label ? ` (${label})` : ""} — overview of all score pages`;
+    return `
+    <figure class="score-overview">
+      ${label ? `<figcaption>${label}</figcaption>` : ""}
+      <a href="${src}" target="_blank" rel="noopener">
+        <img src="${src}" alt="${alt}" loading="lazy" decoding="async">
+      </a>
+    </figure>`;
+  }).join("");
 }
 
 // -----------------------------

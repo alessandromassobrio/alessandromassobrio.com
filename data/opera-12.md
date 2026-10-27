@@ -5,6 +5,7 @@ duration: ca. 11'
 category: Solo
 instrumentation: for electric guitar
 cycle: 5 Guitar Studies
+score_overview: 
 ---
 
 ## Info

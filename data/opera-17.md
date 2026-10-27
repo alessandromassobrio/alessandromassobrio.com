@@ -5,6 +5,8 @@ duration: ca. 9
 category: Solo
 instrumentation: for electric guitar  and HEX Holiest Grail
 cycle: 5 Guitar Studies
+score_overview: /assets/img/scores/A.Massobrio_Guitar-studies-i-Cygni-X1_2004.png?v=67f65528
+score_pages: 5
 ---
 
 ## Info
