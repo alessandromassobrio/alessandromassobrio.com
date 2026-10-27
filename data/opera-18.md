@@ -5,6 +5,7 @@ duration: ca. 9'
 category: Solo
 instrumentation: percussion (five suspended cymbals and river stones)
 score_overview: /assets/img/scores/A.Massobrio_Vector-span-studies-No-1_2026.png?v=52e30669
+score_pages: 6
 ---
 
 ## Info

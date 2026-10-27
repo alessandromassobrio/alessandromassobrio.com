@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // Load works page
 // -----------------------------
 function loadWorksPage() {
-  fetch("/works/works.json")
+  fetch("/works/works.json", { cache: "no-cache" })
     .then(res => res.json())
     .then(works => {
       // Ordina per anno discendente
@@ -96,7 +96,7 @@ function setActiveWork(work, works) {
 // Load single work detail (right column)
 // -----------------------------
 function loadWorkDetail(work) {
-  fetch(`/data/${work.id}.md`)
+  fetch(`/data/${work.id}.md`, { cache: "no-cache" })
     .then(res => res.text())
     .then(text => {
       const { meta, content } = parseFrontMatter(text);

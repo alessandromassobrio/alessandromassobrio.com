@@ -1,4 +1,4 @@
-fetch("/data/updates.md")
+fetch("/data/updates.md", { cache: "no-cache" })
   .then(res => res.text())
   .then(text => {
     const updates = text.split(/^---$/gm).filter(Boolean);
