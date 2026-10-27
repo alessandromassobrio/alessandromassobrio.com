@@ -755,3 +755,15 @@ h2 {
     height: 100%;
   }
 }
+/* ===== LOGO NELLE NEWS ===== */
+
+.update-logo {
+  margin-top: 0.75rem;
+}
+
+.update-logo img {
+  display: block;
+  height: 44px;
+  width: auto;
+  max-width: 100%;
+}

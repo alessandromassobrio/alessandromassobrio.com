@@ -2,6 +2,9 @@
 title: Cluster #47 — Sabrina Ma
 date: 30.10.2026
 description: <a href="/works/?work=vector-span-studies">Vector-span studies</a>, for 5 cymbals, performed by Sabrina Ma at KM28, in the context of the Cluster Series. The programme includes works by Joseph Schwantner and Toshi Ichiyanagi, followed by the screening of Miranda Pennell's film <em>A Person of the Forest</em> (2026), curated by Valentina Besegher Scotti. <br> <a href="https://www.field-notes.berlin/en/kalender/cluster-47-w-sabrina-ma-guest-composer-performer-concert-and-experimental-film-screening" target="_blank">field-notes.berlin</a>
+logo: /assets/img/logos/monat-der-zeitgenoessischen-musik.png
+logo_alt: Monat der zeitgenössischen Musik 2026
+logo_link: https://www.field-notes.berlin/en/month-of-contemporary-music
 ---
 title: Up to Three Festival- Elements
 date: 04.07.2026
@@ -9,7 +12,7 @@ description: <a href="/works/?work=h+he">H+He</a>, for soprano saxophone, violin
 ---
 title: Unerhörte Musik
 date: 19.05.2026
-description: <a href="/works/?work=vector-span-studies">Vector-span studies</a>, for 5 suspended cymbals, commissioned by Sabrina Ma.
+description: <a href="/works/?work=vector-span-studies">Vector-span studies</a>, for 5 suspended cymbals, commissioned by Sabrina Ma. <br> <a href="https://www.unerhoerte-musik.de/" target="_blank">unerhoerte-musik.de</a>
 ---
 title: New website online
 date: 01.01.2026
