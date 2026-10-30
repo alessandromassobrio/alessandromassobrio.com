@@ -1,10 +1,18 @@
 ---
+title: Workshop — Possible Uses of Agent-Based AI in Composition
+date: 25.11.2026
+description: Online workshop for the students of the School of Sonic Arts, Tehran, and the Aristotle University of Thessaloniki, 17:00–19:00 (Greek time). <br> <a href="https://schoolofsonicarts.com/" target="_blank">schoolofsonicarts.com</a>
+---
 title: Cluster #47 — Sabrina Ma
 date: 30.10.2026
 description: <a href="/works/?work=vector-span-studies">Vector-span studies</a>, for 5 cymbals, performed by Sabrina Ma at KM28, in the context of the Cluster Series. The programme includes works by Joseph Schwantner and Toshi Ichiyanagi, followed by the screening of Miranda Pennell's film <em>A Person of the Forest</em> (2026), curated by Valentina Besegher Scotti. <br> <a href="https://www.field-notes.berlin/en/kalender/cluster-47-w-sabrina-ma-guest-composer-performer-concert-and-experimental-film-screening" target="_blank">field-notes.berlin</a>
 logo: /assets/img/logos/monat-der-zeitgenoessischen-musik.png
 logo_alt: Monat der zeitgenössischen Musik 2026
 logo_link: https://www.field-notes.berlin/en/month-of-contemporary-music
+---
+title: Research residency at the Archivio Luigi Nono, Venice
+date: 14.09.2026
+description: In September I was a guest researcher at the Fondazione Archivio Luigi Nono in Venice, studying materials from Nono's late period (1979–1990). The residency is part of my ongoing research on notation for sound states and sound fields. <br> <a href="https://www.luiginono.it" target="_blank">luiginono.it</a>
 ---
 title: Up to Three Festival- Elements
 date: 04.07.2026
